@@ -1,0 +1,243 @@
+@charset "UTF-8";
+
+#wrap {
+	width: 96%;
+	margin: 0 auto;
+}
+
+#header {
+	width: 100%;
+	height: 270px;
+	text-align: center;
+	background: #ffffff;
+	margin-bottom: 30px;
+}
+
+#main {
+	width: 100%;
+	height: 1500px;
+	text-align: center;
+	clear: both;
+	margin-bottom: 30px;
+}
+
+#content {
+	width: 70%;
+	height: 1500px;
+	text-align: center;
+	float: left;
+	margin-bottom: 30px;
+	padding: 1.5%;
+}
+
+#right {
+	width: 25%;
+	text-align: center;
+	float: right;
+	margin-bottom: 20px;
+	padding: 1%;
+}
+
+#right_down1 {
+	width: 100%;
+	text-align: center;
+	align-content: center;
+}
+
+#right_down2 {
+	width: 100%;
+	text-align: center;
+	margin-top: 30px;
+	padding-bottom: 30px;
+}
+
+#right_down3 {
+	width: 100%;
+	text-align: center;
+	margin-top: 30px;
+	padding-top: 30px;
+}
+
+#footer {
+	clear: both;
+	padding: 20px;
+	text-align: center;
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#fcfcfc+33,b4e391+100 */
+background: #fcfcfc; /* Old browsers */
+background: -moz-linear-gradient(top,  #fcfcfc 33%, #b4e391 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #fcfcfc 33%,#b4e391 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #fcfcfc 33%,#b4e391 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfcfc', endColorstr='#b4e391',GradientType=0 ); /* IE6-9 */
+}
+
+#header h1 {
+	margin: 20px;
+	font-style: italic;
+	font-size: 2.5em;
+}
+
+#header #logo {
+	width: 20%;
+	height: 230px;
+	padding-left: 20px;
+	float: left;
+}
+
+#gnb {
+	width: 50%;
+	height: 100px;
+	float: right;
+}
+
+#gnb ul{
+	float: right;
+}
+
+#gnb ul li {
+	float: left;
+	margin-top: 5px;
+	list-style: none;
+	display: inline-block;
+}
+
+#gnb ul li button {
+	font-style: Sans-Serif;
+	font-size: 1em;
+	width: 110px;
+	height: 45px;
+	background-color: white;
+	color: #424242;
+	border: 0px;
+	margin:auto;
+}
+#gnb ul li button:hover {
+	background-color: #424242;
+	color: white;
+	font-size: 1.2em;
+	width: 140px;
+	height: 50px;
+}
+
+#banner {
+	width: 100%;
+	height: 68px;
+	clear:both;
+	margin-top: 230px;
+	background-color: #424242;
+	color:white;
+}
+
+#banner ul li {
+	list-style: none;
+	display: inline-block;
+	width: 200px;
+	margin-left: 130px;
+	margin-top: 10px;
+}
+
+#banner ul li button {
+	float: left;
+	font-size: 1.5em;
+	text-align: center;
+	width: 110px;
+	height: 50px;
+	background-color: #424242;
+	color: white;
+	border: 0px;
+	margin:auto;
+}
+#banner ul li button:hover {
+	background-color: white;
+	color: #424242;
+	font-size: 2em;
+	width: 160px;
+	height: 50px;
+	font-weight: bolder;
+}
+
+#header ul li a {
+	text-decoration: none;
+}
+
+#mypageLeft{
+	width : 20%;
+	height : 30%;
+	border: 1px solid gray;
+	float: left;
+}
+#mypageLeft ul{
+	padding:0px;
+}
+#mypageLeft ul li button:hover {
+	background-color: #4CAF50;
+	color: white;
+}
+#mypageLeft ul li button {
+	width: 90%;
+	height: 50px;
+	background-color: white;
+	color: #2E2E2E;
+	border: 0px;
+	font-size: 30px;
+	font-family: cursive;
+}
+#mypageLeft ul li {
+	text-decoration: none;
+	list-style: none;
+	margin-left:10px;
+}
+
+
+#mypageContent{
+	width : 78%;
+	height : 80%;
+	margin-left:20px;
+	border: 1px solid red;
+	float: left;
+}
+
+.tag{text-align: left;font-size:13px;}
+
+a{text-decoration: none;color:gray;}
+
+#result{width:450px;border:1px solid gray;height:100px;padding:1px;
+font-size: 12px; display:none;}
+#cardinfo{width:600px;border:1px solid gray;padding:1px;margin-top:20px;display:none;}
+#nodeposit{width:600px;border:1px solid gray;height:150px;padding:10px;margin-top:20px;display:none;}
+#buyDiv{width:600px; border: 1px solid gray;}
+#details{width:580px;border:1px solid gray;height:130px;padding:1px;margin-top:10px;}
+#final{width:600px;border:1px solid gray;padding:2px;margin-top:20px;}
+label{margin-left:80px;}
+li{font-size:15px;}
+table{margin:auto;}
+
+
+
+#brace_wrap{ margin:0px auto;}
+#price{text-align: center;}
+#brace_wrap #b{width:400px; height:400px;  float: left; 
+margin-top:130px; padding:20px; margin-bottom:100px ; margin-right: 20px; margin-left: 120px;
+}
+
+
+#page{clear: both; float: left;   margin-left: 800px; margin-top: 130px;}
+
+#watch_wrap{ margin:0px auto; }
+#w{width:400px; height:400px;  float: left; margin-top:130px;
+padding:20px; margin-bottom:100px ; marmargin-right: 20px; margin-left: 120px; }
+
+#neck_wrap{ margin:0px auto; }
+#n{width:400px; height:400px;  float: left; margin-top:130px;
+padding:20px; margin-bottom:100px ; marmargin-right: 20px; margin-left: 120px; }
+
+#err_wrap{ margin:0px auto; }
+#e{width:400px; height:400px;  float: left; margin-top:130px;
+padding:20px; margin-bottom:100px ; marmargin-right: 20px; margin-left: 120px; }
+
+#mainlist_wrap{margin:0px auto;}
+#mainlist_wrap #mainimg{width:280px; height:280px;  float: left; 
+padding:10px; margin-bottom:10px ; marmargin-right: 20px;  margin-left: 90px; }
+
+
+
+
